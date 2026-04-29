@@ -69,15 +69,15 @@ def stream_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⏸",
+                text="II",
                 callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="ADD IT ↗",
+                text="ᴧᴅᴅ ᴍᴇ",
                 callback_data=f"ADD|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="▶",
+                text="▷",
                 callback_data=f"ADMIN Resume|{chat_id}"
             )
         ]
